@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MicroControl" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.IoTBuilder" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <style name="Theme.MicroControl.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_playstore</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.MicroControl</item>
+    </style>
+
+    <style name="Theme.SplashScreen" parent="Theme.MicroControl">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_playstore</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.MicroControl</item>
+    </style>
+</resources>
