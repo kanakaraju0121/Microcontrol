@@ -6,7 +6,6 @@
 
 **An Android companion app for creating, configuring and controlling microcontroller projects.**
 
-[![Android CI](https://github.com/kanakaraju0121/MicroControl/actions/workflows/android-ci.yml/badge.svg)](https://github.com/kanakaraju0121/MicroControl/actions/workflows/android-ci.yml)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.2.21-7F52FF?logo=kotlin&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
